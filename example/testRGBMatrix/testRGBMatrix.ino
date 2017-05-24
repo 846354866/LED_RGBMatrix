@@ -1,6 +1,6 @@
 
 
-#include <DFRobot_RGBMatrix.h> // Hardware-specific library
+#include <LED_RGBMatrix.h> // Hardware-specific library
 
 #define OE   	9
 #define LAT 	10
@@ -13,7 +13,7 @@
 #define WIDTH 64
 #define HIGH	64
 
-DFRobot_RGBMatrix matrix(A, B, C, D, E, CLK, LAT, OE, false, WIDTH, HIGH);
+LED_RGBMatrix matrix(A, B, C, D, E, CLK, LAT, OE, false, WIDTH, HIGH);
 
 void setup() {
 

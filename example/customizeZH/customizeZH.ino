@@ -1,6 +1,6 @@
 
 
-#include <DFRobot_RGBMatrix.h> // Hardware-specific library
+#include <LED_RGBMatrix.h> // Hardware-specific library
 
 #define OE   	9
 #define LAT 	10
@@ -13,7 +13,7 @@
 #define WIDTH 64
 #define HIGH	64
 
-DFRobot_RGBMatrix matrix(A, B, C, D, E, CLK, LAT, OE, false, WIDTH, HIGH);
+LED_RGBMatrix matrix(A, B, C, D, E, CLK, LAT, OE, false, WIDTH, HIGH);
 
 const uint8_t test_ZH1[] = {
 0x18,0x60,0x18,0x60,0x30,0x60,0x7F,0x7E,0x63,0xC6,0x63,0xC6,0x63,0x86,0x63,0x66,
